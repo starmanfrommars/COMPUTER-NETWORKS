@@ -92,12 +92,10 @@ public class Crc_Lab_1 {
             data[pos] = (data[pos]==0)? 1 : 0; // Toggle the bit to simulate the error
 
             System.out.println("\nErroneous data : ");
-            for (int i = 0; i < data.length ; i++) {
+            for (int i = 0; i < n+N-1 ; i++) {
                 System.out.print(data[i]);
             }
         }
-
-        System.out.println("check point");
 
         // perform CRC check on received data
         crc();
