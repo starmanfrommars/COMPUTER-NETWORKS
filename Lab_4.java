@@ -115,3 +115,34 @@ public class Crc_Lab_1 {
         System.out.println("\nNo Error is Received Codeword : ");
     }
 }
+
+/* *******************************************************************************************
+ Enter number of Data bits : 
+ 4
+
+ Enter the data bits : 
+ 1 0 1 1
+
+ CRC Divisor : 
+ 10001000000100001
+
+ CRC Checksum is : 
+ 1011000101101011
+
+ Final codeword is : 
+ 10111011000101101011
+
+ Test Error detection [ 0(yes)/1(n)? ] : 
+ 0
+ Enter the position where error is to be inserted : 
+ 2
+
+ Erroneous data : 
+ 100110110001011010110check point
+
+
+ Receiver Checksum : 
+ 0010000001000010
+
+ ERROR in Received Codeword
+ ****************************************************************************************** */
