@@ -108,11 +108,11 @@ public class Crc_Lab_1 {
         // Check for errors
         for (int i = 0; i < N-1; i++) {
             if(cs[i] != 0){
-                System.out.println("\n\nERROR in Received Codeword : ");
+                System.out.println("\n\nERROR in Received Codeword");
                 System.exit(0);
             }
         }
-        System.out.println("\nNo Error is Received Codeword : ");
+        System.out.println("\nNo Error is Received Codeword");
     }
 }
 
