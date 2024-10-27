@@ -1,11 +1,11 @@
-/********************************************************************************************
+/* *******************************************************************************************
  * Program No.: 5
  * Question : Develop a program to implement sliding window protocol in the data link layer
  * Explanation : A sliding window protocol is a feature of packet-based data transmission
  * protocols. Sliding window protocols are used where reliable in-order delivery of packets
  * is required, such as in the data link layer as well as in the Transmission Control Protocol.
  * Date : 25 - 10 - 2024
- *******************************************************************************************/
+****************************************************************************************** */
 
 import java.util.Random;
 import java.util.Scanner;
@@ -74,3 +74,35 @@ public class SWP_Lab_2 {
         scanner.close();
     }
 }
+
+/* *******************************************************************************************
+ OUTPUT:
+ 
+ Enter window size : 
+ 3
+ Enter total number of frames : 
+ 4
+ Sending frames...
+ Sent: Frame 0
+ Sent: Frame 1
+ Sent: Frame 2
+ No Ack received for Frame 0, retransmitting...
+ Sending frames...
+ Sent: Frame 0
+ Sent: Frame 1
+ Sent: Frame 2
+ No Ack received for Frame 0, retransmitting...
+ Sending frames...
+ Sent: Frame 0
+ Sent: Frame 1
+ Sent: Frame 2
+ Ack received for Frame 0
+ Ack received for Frame 1
+ Ack received for Frame 2
+ No Ack received for Frame 3, retransmitting...
+ Sending frames...
+ Sent: Frame 3
+ Ack received for Frame 3
+ Transmission Complete!
+ [ Output can vary each time program is executed ]
+ *******************************************************************************************/
