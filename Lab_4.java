@@ -1,11 +1,11 @@
-/********************************************************************************************
+/* *******************************************************************************************
  * Program No. : 4
  * Question : Develop a program for error detecting code using CRC-CCITT (16- bits)
  * Explanation : CRC-CCITT is a 16-bit Cyclic Redundancy Check (CRC) algorithm that uses a standard
  * polynomial and an initial value to generate a code that confirms the correct retrieval
  * of information
  * Date : 17 - 10 - 2024
- *******************************************************************************************/
+****************************************************************************************** */
 
 import java.util.Scanner;
 
