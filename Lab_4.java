@@ -138,7 +138,7 @@ public class Crc_Lab_1 {
  2
 
  Erroneous data : 
- 100110110001011010110check point
+ 100110110001011010110
 
 
  Receiver Checksum : 
