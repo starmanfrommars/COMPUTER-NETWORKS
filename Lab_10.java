@@ -45,3 +45,24 @@ public class Lab_10 {
         }
     }
 }
+
+/*
+
+OUTPUT:
+
+Enter the bucket size : 
+50
+Enter the number of packets : 
+3
+Enter the dara rate : 
+35 76 10
+Enter the output rate : 
+10
+Packet transmission 10
+Packet transmission 10
+Packet transmission 10
+Packet transmission 5
+Bucket Overflow
+Packet transmission 10
+ 
+*/
