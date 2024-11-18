@@ -27,6 +27,15 @@ public class DSender {
     }
 }
 
+/*
+
+OUTPUT:
+
+Enter the message and press ENTER to Send :
+Java is a OOP Language.
+
+*/
+
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 package Lab8;
@@ -49,3 +58,11 @@ public class Client {
     }
 }
 
+/*
+
+OUTPUT:
+
+Message from server
+Java is a OOP Language.
+
+*/
