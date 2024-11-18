@@ -67,3 +67,21 @@ public class Lab_9 {
         }
     }
 }
+
+/*
+
+OUTPUT:
+
+Enter prime no.s p, q : 
+13 29
+Select e value : 
+31
+Enter message : 
+Computer Network
+p=13	q=29	n=377	z=336	e=31	d=271
+Cipher Text = 
+	323	136	34	226	117	116	192	166	85	286	192	116	375	136	166	315
+Plain Text = 
+Computer Network
+
+*/
