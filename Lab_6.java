@@ -29,15 +29,6 @@ public class DVT_Lab_3 {
             }
         }
 
-        for (i = 1 ; i <= nodes ; i++){
-            System.out.println("From Router Node : "+i);
-            System.out.println("Destination Node\tNext-Hop\tDistance");
-            for (j = 1; j <= nodes; j++) {
-                System.out.println(j+"\t\t\t\t\t"+from[i][j]+"\t\t\t"+dist[i][j]);
-            }
-        }
-        System.out.println("\n");
-
         for(i=1 ; i<=nodes ; i++) {
             for(j=1 ; j<=nodes ; j++) {
                 for(k=1 ; k<=nodes ; k++) {
@@ -48,6 +39,15 @@ public class DVT_Lab_3 {
                 }
             }
         }
+
+        for (i = 1 ; i <= nodes ; i++){
+            System.out.println("From Router Node : "+i);
+            System.out.println("Destination Node\tNext-Hop\tDistance");
+            for (j = 1; j <= nodes; j++) {
+                System.out.println(j+"\t\t\t\t\t"+from[i][j]+"\t\t\t"+dist[i][j]);
+            }
+        }
+        System.out.println("\n");
     }
 }
 
